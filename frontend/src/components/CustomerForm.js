@@ -304,7 +304,6 @@ export default function CustomerForm() {
             ))}
           </select>
         </label>
-
         <div className="form-actions">
           <button type="submit">Submit</button>
           <button type="button" className="cancel-btn" onClick={handleCancel}>
