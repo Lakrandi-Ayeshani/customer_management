@@ -1,0 +1,22 @@
+{
+    "id": 8,
+    "name": "Customer 3 Updated",
+    "nic": "111111111V",
+    "dateOfBirth": "2001-09-11",
+    "mobileNumbers": ["9999", "8888"],
+    "addresses": [
+        {
+            "addressLine1": "5A, Mountain View",
+            "addressLine2": "Valley Road",
+            "city": "Los Angeles",
+            "country": "USA"
+        },
+        {
+            "addressLine1": "9A, Mountain View",
+            "addressLine2": "Valley Road",
+            "city": "Los Angeles",
+            "country": "USA"
+        }
+    ],
+    "familyMemberIds": [3]
+}

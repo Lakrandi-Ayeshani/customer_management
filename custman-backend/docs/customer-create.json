@@ -1,0 +1,15 @@
+{
+    "name": "Customer 5",
+    "nic": "224333311V",
+    "dateOfBirth": "2001-08-02",
+    "mobileNumbers": ["11111"],
+    "addresses": [
+        {
+            "addressLine1": "10, Colombo Road",
+            "addressLine2": "Kurunegala",
+            "city": "Kandy",
+            "country": "Sri Lanka"
+        }
+    ],
+    "familyMemberIds": [8]
+}

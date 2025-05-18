@@ -1,0 +1,161 @@
+.customer-form-wrapper {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.customer-form-wrapper h3 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+.customer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-inline: 1rem;
+}
+
+.customer-form label {
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 0.25rem;
+  display: block;
+}
+
+.customer-form input[type="text"],
+.customer-form input[type="email"],
+.customer-form input[type="number"],
+.customer-form input[type="tel"],
+.customer-form input[type="date"],
+.customer-form select,
+.customer-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.customer-form input:focus,
+.customer-form select:focus,
+.customer-form textarea:focus {
+  border-color: #4a90e2;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+.customer-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.customer-form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.customer-form .button-group {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.customer-form button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.customer-form button:hover {
+  background-color: #357ab7;
+}
+
+.customer-form .cancel-button {
+  background-color: #999;
+}
+
+.customer-form .cancel-button:hover {
+  background-color: #777;
+}
+
+.addresses {
+  display: flex;
+}
+
+.address-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 1rem; 
+  width: 100%;
+}
+
+.address-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px; 
+  margin-bottom: 1.5rem; 
+}
+
+.address-block input {
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0 0 2px 10px;
+  /* padding: 03rem; */
+  color: #007bff;
+  background-color:  #007bff;;
+  vertical-align: middle;
+  user-select: none;
+  width: fit-content;
+  height: fit-content;
+  fill: white;
+}
+
+.icon-btn:hover {
+  color: #0056b3;
+}
+
+.remove-icon {
+  margin-left: 0.5rem;
+  background-color: red;
+}
+
+@media (max-width: 600px) {
+  .customer-form-wrapper {
+    padding: 1rem;
+  }
+
+  .customer-form .button-group {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
